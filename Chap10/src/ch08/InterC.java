@@ -8,10 +8,10 @@ public interface InterC
 //구현체 
 class C implements InterC{
 	@Override
-	public void m1() {}
-
+	public void m1() {}//상속메소드
 	@Override
-	public void m2() {}
+	public void m2() {}//상속메소드
+	void m3() {}//추가된 메소드
 }
 //상속 후 구현
 class D extends C implements MyInter{
